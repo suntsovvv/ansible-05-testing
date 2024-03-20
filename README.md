@@ -1,11 +1,11 @@
 # Домашнее задание к занятию 5 «Тестирование roles»
-##1   
+## 1   
 ```bash
 user@study:~/home_work/ansible/ansible-04-role/playbook/roles/clickhouse$ molecule test -s centos_7
 WARNING  Driver docker does not provide a schema.
 CRITICAL Failed to validate /home/user/home_work/ansible/ansible-04-role/playbook/roles/clickhouse/molecule/centos_7/molecule.yml
 ```
-##2   
+## 2   
 ```bash
 user@study:~/home_work/ansible/ansible-05-testing/roles/vector-role$ molecule init scenario --driver-name docker
 INFO     Initializing new scenario default...
@@ -33,4 +33,4 @@ localhost                  : ok=3    changed=2    unreachable=0    failed=0    s
 INFO     Initialized scenario in /home/user/home_work/ansible/ansible-05-testing/roles/vector-role/molecule/default successfully.
 user@study:~/home_work/ansible/ansible-05-testing/roles/vector-role$
 ```
-##3   
+## 3   
