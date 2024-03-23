@@ -1,0 +1,5 @@
+---
+- name: vector-role  
+  src: git@github.com:suntsovvv/vector-role.git
+  scm: git
+  version: "v1.0.0"
