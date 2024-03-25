@@ -2,7 +2,8 @@ galaxy_info:
   author: Vadim Suntsov
   description: Install Vertor
   company: Netology
-
+  role_name: my_name
+  namespace: my_galaxy_namespace
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
   # issue_tracker_url: http://example.com/issue/tracker

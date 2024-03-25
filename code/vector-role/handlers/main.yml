@@ -1,6 +1,6 @@
 ---
 - name: restart vector service
 #  become: 1
-  ansible.builtin.service:
-    name: vector
-    state: restarted
+  ansible.builtin.shell:
+    cmd: "/usr/bin/vector --config-yaml vector.yml --watch-config &"
+ 
