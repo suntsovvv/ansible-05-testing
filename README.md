@@ -265,7 +265,9 @@ WARNING  Skipping, cleanup playbook not configured.
 INFO     Running default > destroy
 WARNING  Skipping, '--destroy=never' requested.
 ```
-### 6
+### 6   
+https://github.com/suntsovvv/vector-role/releases/tag/v1.1.0
+
 ## Tox
 ### 1-6
 
@@ -619,6 +621,7 @@ ______________________________________________________________________ summary _
 ERROR:   py39-ansible212: commands failed
 ERROR:   py39-ansible30: commands failed
 ```
-### 7
+### 7   
+https://github.com/suntsovvv/vector-role/releases/tag/v1.1.1
 
 
